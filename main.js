@@ -69,7 +69,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "Master Anwar" && password === "rn#et$in&te") {
-        window.location.href = "/index.html";
+        window.location.href = "index.html";
         // location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
